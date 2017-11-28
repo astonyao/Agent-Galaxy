@@ -1,6 +1,21 @@
+.AG-NavBar .AGJumbotron .AGTeam .AGMedia {
+    z-index: 10;
+}
+
 .AG-NavBar {
   border-radius: 0px;
-  z-index: 10;
+}
+
+.AGJumbotron {
+  text-align: center;
+}
+
+.AGMember {
+  text-align: center;
+}
+
+.AGMedia .MediaContainer {
+    max-width: 700px;
 }
 
 * {
