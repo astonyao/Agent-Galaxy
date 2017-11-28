@@ -1,13 +1,56 @@
-.AG-NavBar .AGJumbotron .AGTeam .AGMedia {
-    z-index: 10;
+.AG-NavBar, .AGJumbotron, .AGTeam, .AGMedia {
+    z-index: 100;
+    margin-bottom: 60px;
 }
 
 .AG-NavBar {
   border-radius: 0px;
 }
 
+.AG-NavBar .Business-Name {
+    color: #fcfcfc;
+}
+.AG-NavBar.navbar-inverse {
+    background-color: black;
+}
+
 .AGJumbotron {
   text-align: center;
+  height: 100%;
+  width: 100%;
+  color: #fcfcfc;
+}
+
+.AGJumbotron .title .galaxy {
+    font-style: italic;
+    font-weight: 100;
+    font-family: -webkit-body;
+}
+
+.AGJumbotron .contained-modal-title {
+    color: black;
+}
+
+.jumbtron-button {
+    position: relative;
+    z-index: 100;
+    border-radius: 0px;
+}
+
+.SinglePlanet p {
+    color: black;
+}
+
+.SinglePlanet .residents {
+    font-size: smaller;
+}
+
+.AGTeam h2 {
+    color: #fcfcfc;
+}
+.AGTeam .AGMember {
+    position: relative;
+    z-index: 10;
 }
 
 .AGMember {
@@ -16,6 +59,10 @@
 
 .AGMedia .MediaContainer {
     max-width: 700px;
+}
+
+.AGContact {
+    padding: 30px;
 }
 
 * {

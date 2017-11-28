@@ -6,27 +6,27 @@ class AGNavBar extends Component {
         return(
           <Navbar className="AG-NavBar" inverse collapseOnSelect>
             <Navbar.Header>
-              <Navbar.Brand>
+              <Navbar.Brand className="Business-Name">
                 <a href="#">Agent Galaxy</a>
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
-              <Nav>
-                <NavItem eventKey={1} href="#">Link</NavItem>
-                <NavItem eventKey={2} href="#">Link</NavItem>
-                <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                  <MenuItem eventKey={3.1}>Action</MenuItem>
-                  <MenuItem eventKey={3.2}>Another action</MenuItem>
-                  <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                  <MenuItem divider />
-                  <MenuItem eventKey={3.3}>Separated link</MenuItem>
-                </NavDropdown>
-              </Nav>
               <Nav pullRight>
+                <NavDropdown eventKey={3} title="Buying" id="basic-nav-dropdown">
+                  <MenuItem eventKey={3.1}>View Our Auctions</MenuItem>
+                  <MenuItem eventKey={3.2}>Buying Tips</MenuItem>
+                  <MenuItem eventKey={3.3}>Buying Checklists</MenuItem>
+                  <MenuItem divider />
+                  <MenuItem eventKey={3.3}>Contact Our Specialist</MenuItem>
+                </NavDropdown>
+                <NavItem eventKey={2} href="#">Renting</NavItem>
+                <NavItem eventKey={1} href="#">Selling</NavItem>
+              </Nav>
+              {/* <Nav pullRight>
                 <NavItem eventKey={1} href="#">Link Right</NavItem>
                 <NavItem eventKey={2} href="#">Link Right</NavItem>
-              </Nav>
+              </Nav> */}
             </Navbar.Collapse>
           </Navbar>
       )

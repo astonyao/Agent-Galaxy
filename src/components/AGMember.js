@@ -17,9 +17,6 @@ class AGMember extends Component {
                 <Thumbnail src={ this.state.src }>
                 <h3>{ this.state.name }</h3>
                 <p>{ this.state.info }</p>
-                <p>
-                    <Button bsStyle="primary">Button</Button>
-                </p>
                 </Thumbnail>
             </div>
       )
