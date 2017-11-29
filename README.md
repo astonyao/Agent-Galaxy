@@ -26,15 +26,3 @@ Clone or download the repo, in the terminal, navigate to the project folder, if 
 Then you can launch the page with 
 
 ``` npm start  ```
-
-
-
-## Run the app
-Navigate to the project folder, run
-
-``` npm install ```
-
-and then
-
-``` npm start ```
-
