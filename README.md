@@ -8,8 +8,11 @@ This is a fictional task, building brand new homepage with [React.js](https://re
 
 ## Homepage preview
 
+### Desktop GIF
 ![desktop gif](https://raw.githubusercontent.com/astonyao/agent-galaxy/master/screenshots/desktop.gif)
+### Mobile GIF
 ![mobile gif](https://raw.githubusercontent.com/astonyao/agent-galaxy/master/screenshots/mobile.gif)
+### Desktop Screenshots
 ![Desktop static img](https://raw.githubusercontent.com/astonyao/agent-galaxy/master/screenshots/desktop.jpg)
 ![Desktop static img](https://raw.githubusercontent.com/astonyao/agent-galaxy/master/screenshots/desktop2.jpg)
 
