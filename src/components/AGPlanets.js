@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Thumbnail, Image } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import AGPlanet from './AGPlanet.js'
 import jupiter from './img/planets/Joe-Van-Wetering-2-Jupiter.jpg'
 import Joe_Van_Wetering from './img/planets/Joe-Van-Wetering.jpg'

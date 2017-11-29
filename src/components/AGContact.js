@@ -30,7 +30,7 @@ class AGContact extends Component {
                             <ControlLabel>Textarea</ControlLabel>
                         </Col>
                         <Col sm={9}>
-                            <FormControl componentClass="textarea" placeholder="textarea" />
+                            <FormControl componentClass="textarea" placeholder="Hello, I would like to know more about ..." />
                         </Col>
                     </FormGroup>
 

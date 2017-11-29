@@ -7,7 +7,7 @@ class AGNavBar extends Component {
           <Navbar className="AG-NavBar" inverse collapseOnSelect>
             <Navbar.Header>
               <Navbar.Brand className="Business-Name">
-                <a href="#">Agent Galaxy</a>
+                <a href="">Agent <span className="galaxy">Galaxy</span></a>
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>

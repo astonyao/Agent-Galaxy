@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Thumbnail, Button } from 'react-bootstrap';
+import { Thumbnail } from 'react-bootstrap';
 
 class AGMember extends Component {
     constructor(props){

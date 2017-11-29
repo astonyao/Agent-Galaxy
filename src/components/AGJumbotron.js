@@ -19,8 +19,8 @@ class AGJumbotron extends Component {
         return(
             <Jumbotron className="AGJumbotron">
                 <h1 className="title"><span className="agent">Agent</span> <span className="galaxy">Galaxy</span></h1>
-                <p>The best real estate agent in solar system.</p>
-                <div className="modal-container" style={{ height: 200 }}>
+                <p>The best real estate agent for planets.</p>
+                <div className="modal-container">
                     <Button
                     className="jumbtron-button"
                     bsStyle="danger"
