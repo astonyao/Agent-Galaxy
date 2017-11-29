@@ -15,7 +15,7 @@ This is a fictional task, building brand new homepage with [React.js](https://re
 ### Desktop Screenshots
 ![Desktop static img](https://raw.githubusercontent.com/astonyao/agent-galaxy/master/screenshots/desktop.jpg)
 ![Desktop static img](https://raw.githubusercontent.com/astonyao/agent-galaxy/master/screenshots/desktop2.jpg)
-
+![Desktop static img](https://raw.githubusercontent.com/astonyao/agent-galaxy/master/screenshots/desktop3.jpg)
 
 
 ## Running the project
